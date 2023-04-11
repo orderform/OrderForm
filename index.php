@@ -39,10 +39,10 @@ if (curl_errno($ch)) {
     echo 'Order placed successfully';
     
     // Send email to owner
-    $to = "deliteapparels@gmail.com";
+    $to = "mohdabaans@gmail.com";
     $subject = "New Order Placed";
     $message = "A new order has been placed:\n\nName: " . $data["name"] . "\nEmail: " . $data["email"] . "\nPhone: " . $data["phone"] . "\nAddress: " . $data["address"] . "\nTransport: " . $data["transport"] . "\nPayment: " . $data["payment"] . "\nDelivery Address: " . $data["delivery"];
-    $headers = "From: orderbot@notifier.com";
+    $headers = "From: noreply.deliteorderform.com";
     mail($to, $subject, $message, $headers);
 }
 
