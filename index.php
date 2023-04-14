@@ -1,7 +1,7 @@
 <?php
 // Replace with your Firebase project's API key and database URL
 $apiKey = "AIzaSyDnOjfqFNLlsNNu-Ot5MUvDpoSnlCc0gPc";
-$databaseUrl = "https://order-form-2e781.firebaseio.com";
+$databaseUrl = "https://order-form-2e781-default-rtdb.firebaseio.com";
 
 // Data to be sent to Firebase
 $data = array(
